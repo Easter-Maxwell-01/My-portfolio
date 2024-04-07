@@ -1,3 +1,4 @@
+
 /* universal selector */
 * 
 {
@@ -118,13 +119,35 @@ a
 {
     width: 50px;
     height: 50px;
-}
-.projects .col .logo img 
-{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 50%;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+}
+
+.projects .col .l-1
+{
+  background-color: #90541c;
+}
+.projects .col .l-2
+{
+  background-color: #26221b;
+}
+.projects .col .l-3
+{
+  background-color: #90451c;
+}
+.projects .col .l-4
+{
+  background-color: #0e4046;
+}
+.projects .col .l-5
+{
+  background-color: #901c22;
+}
+.projects .col .l-6
+{
+  background-color: #081c2c;
 }
 
 .projects .col .link 
